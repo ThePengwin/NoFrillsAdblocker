@@ -130,8 +130,8 @@ def main():
     print('Checking configuration...')
     os.system('/usr/sbin/unbound-checkconf')
 
-    print('\nRestarting \'unbound\' service...')
-    os.system('systemctl restart unbound')
+    #print('\nRestarting \'unbound\' service...')
+    #os.system('systemctl restart unbound')
 
     exit('\n')
 

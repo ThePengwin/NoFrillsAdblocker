@@ -8,5 +8,5 @@ COPY adblock-update.py /etc/adblock-update/adblock-update.py
 WORKDIR /etc/adblock-update/
 #RUN python3 /etc/adblock-update/adblock-update.py
 WORKDIR /
-RUN unbound&
+CMD ["unbound"]
 EXPOSE 53
